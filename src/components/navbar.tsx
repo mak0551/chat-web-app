@@ -25,7 +25,7 @@ function Navbar({ className }: { className?: string }) {
             <HoveredLink href="/courses">Advance Composition</HoveredLink>
             <HoveredLink href="/courses">Songwriting</HoveredLink>
             <HoveredLink href="/courses">Music Production</HoveredLink>
-            <HoveredLink href="/courses">All courses</HoveredLink>
+            <HoveredLink href="/courses">Al courses</HoveredLink>
             
           </div>
         </MenuItem>
