@@ -1,3 +1,3 @@
 export default function(){
-    return <h1 className="bg-white">hello hello afroz</h1>
+    return <h1 className="bg-white">hello hell0o afroz</h1>
 }
