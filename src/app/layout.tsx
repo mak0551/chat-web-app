@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
-// import localFont from "next/font/local";
 import "./globals.css";
-import Navbar from "@/components/navbar";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,12 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body>
-        <div className="relative w-full flex items-center justify-center">
-          <Navbar />
-        </div>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
